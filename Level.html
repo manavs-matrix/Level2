@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1 style="text-align: center;">Registration Form</h1>
+    <table>
+        <form>
+            <tr>
+                <th style="text-align: left;"><label>Name: </label></th>
+                <td><input type="text" placeholder="Enter your name" id="name" name="name" required></td>
+            </tr>
+            <tr>
+                <th style="text-align: left;"><label>Date of Birth: </label></th>
+                <td><input type="date" id="dob" name="dob"></td>
+            </tr>
+            <tr>
+                <th style="text-align: left;"><label>Phone Number: </label></th>
+                <td><input type="number" id="nu" name="nu"</td>
+            </tr>
+            <tr>
+                <th style="text-align: left;"><label>Gender: </label></th>
+                <td>
+                    <input type="radio" name="gender" id="g1">
+                    <label>Male</label>
+                    <input type="radio" name="gender" id="g2">
+                    <label>Female</label>
+                    <input type="radio" name="gender" id="g3">
+                    <label>Others</label>
+                </td>
+            </tr>
+            <tr>
+                <th style="text-align: left;"><label>City of Travel: </label></th>
+                <td>
+                <select name="city">
+                    <option>Surat</option>
+                    <option>Ahmedabad</option>
+                    <option>Vadodara</option>
+                    <option>Gandhinagar</option>
+                </select>
+                </td>
+            </tr>
+        </form>
+    </table>
+</body>
+</html>
